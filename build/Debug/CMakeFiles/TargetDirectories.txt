@@ -1,3 +1,0 @@
-/Users/eddiem/nurScript/build/Debug/CMakeFiles/nurScript.dir
-/Users/eddiem/nurScript/build/Debug/CMakeFiles/edit_cache.dir
-/Users/eddiem/nurScript/build/Debug/CMakeFiles/rebuild_cache.dir
