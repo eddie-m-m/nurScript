@@ -1,3 +1,4 @@
+#include <ranges>
 #include <vector>
 #include <string>
 #include <print>
@@ -7,8 +8,18 @@
 #include <iterator>
 #include <fstream>
 #include <sstream>
+#include <iostream>
+
+#include "include/Lexer.hpp"
 
 namespace { 
+
+
+	void run(std::string source){
+		Lexer 
+
+	};
+
 
 	void run_file(std::string path) {
 
@@ -22,7 +33,14 @@ namespace {
 	}
 
 
-	void run_prompt(){};
+	void run_prompt(){
+		auto lines = std::views::istream<std::string>(std::cin);
+
+		for (const auto& line: lines) {
+			std::cout << "> ";
+			run(line);
+	};
+
 }
 
 

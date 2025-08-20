@@ -8,43 +8,15 @@
 !_TAG_FIELD_DESCRIPTION	name	/tag name/
 !_TAG_FIELD_DESCRIPTION	pattern	/pattern/
 !_TAG_FIELD_DESCRIPTION	typeref	/Type and name of a variable or typedef/
-!_TAG_FIELD_DESCRIPTION!C++	name	/aliased names/
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_KIND_DESCRIPTION!C++	M,module	/modules/
-!_TAG_KIND_DESCRIPTION!C++	P,partition	/partitions/
-!_TAG_KIND_DESCRIPTION!C++	c,class	/classes/
-!_TAG_KIND_DESCRIPTION!C++	d,macro	/macro definitions/
-!_TAG_KIND_DESCRIPTION!C++	e,enumerator	/enumerators (values inside an enumeration)/
-!_TAG_KIND_DESCRIPTION!C++	f,function	/function definitions/
-!_TAG_KIND_DESCRIPTION!C++	g,enum	/enumeration names/
-!_TAG_KIND_DESCRIPTION!C++	h,header	/included header files/
-!_TAG_KIND_DESCRIPTION!C++	m,member	/class, struct, and union members/
-!_TAG_KIND_DESCRIPTION!C++	n,namespace	/namespaces/
-!_TAG_KIND_DESCRIPTION!C++	s,struct	/structure names/
-!_TAG_KIND_DESCRIPTION!C++	t,typedef	/typedefs/
-!_TAG_KIND_DESCRIPTION!C++	u,union	/union names/
-!_TAG_KIND_DESCRIPTION!C++	v,variable	/variable definitions/
 !_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_OUTPUT_VERSION	1.1	/current.age/
-!_TAG_PARSER_VERSION!C++	1.1	/current.age/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
 !_TAG_PROC_CWD	/Users/eddiem/nurScript/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.2.0	//
-!_TAG_ROLE_DESCRIPTION!C++!header	exported	/exported with "exported imported ..."/
-!_TAG_ROLE_DESCRIPTION!C++!header	imported	/imported with "imported ..."/
-!_TAG_ROLE_DESCRIPTION!C++!header	local	/local header/
-!_TAG_ROLE_DESCRIPTION!C++!header	system	/system header/
-!_TAG_ROLE_DESCRIPTION!C++!macro	undef	/undefined/
-!_TAG_ROLE_DESCRIPTION!C++!module	imported	/imported with "imported ..."/
-!_TAG_ROLE_DESCRIPTION!C++!module	partOwner	/used for specifying a partition/
-!_TAG_ROLE_DESCRIPTION!C++!partition	imported	/imported with "imported ..."/
-__anon6bd514d20111	src/main.cpp	/^namespace { $/;"	n	file:
-main	src/main.cpp	/^int main(int argc, char* argv[]) {$/;"	f	typeref:typename:int
-run_file	src/main.cpp	/^	void run_file(std::string path) {$/;"	f	namespace:__anon6bd514d20111	typeref:typename:void
-run_prompt	src/main.cpp	/^	void run_prompt(){};$/;"	f	namespace:__anon6bd514d20111	typeref:typename:void

@@ -43,3 +43,4 @@
 
 .env
 *.swp
+.DS_STORE
