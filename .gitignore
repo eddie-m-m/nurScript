@@ -45,3 +45,7 @@
 *.swp
 .DS_STORE
 build/
+bin/
+CMakeFiles/
+CMakeCache.txt
+.tmp
