@@ -49,3 +49,4 @@ bin/
 CMakeFiles/
 CMakeCache.txt
 .tmp
+tags

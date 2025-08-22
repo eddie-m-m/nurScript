@@ -16,7 +16,7 @@ namespace {
 
 
 	void run(std::string source){
-		Lexer 
+		Lexer lexer = new Lexer
 
 	};
 
